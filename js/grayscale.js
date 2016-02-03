@@ -44,7 +44,7 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 12,
+        zoom: 15,
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(28.6918735, 77.1730115), // New Delhi
