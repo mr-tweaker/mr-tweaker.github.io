@@ -44,17 +44,17 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 12,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(28.6918735, 77.1730115), // New Delhi
+        center: new google.maps.LatLng(34.3113329, 132.9899875), //You know where to find me.
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
         draggable: false,
 
-        // How you would like to style the map. 
+        // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
         styles: [{
             "featureType": "water",
@@ -175,7 +175,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(28.6918735, 77.1730115);
+    var myLatLng = new google.maps.LatLng(34.3113329, 132.9899875);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
